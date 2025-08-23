@@ -7,4 +7,8 @@
 
 ## Why you want to learn React
 
+
  I want to learn React because I’m curious how websites actually work. Even if I’m not really into coding, I think it’s good to know the basics, and maybe I’ll discover something fun or useful along the way.
+
+ I want to learn React because I’m curious how websites actually work. Even if I’m not really into coding, I think it’s good to know the basics, and maybe I’ll discover something fun or useful along the way.
+68576ba (Activity #9: Rename about me file to 07_about_me)
