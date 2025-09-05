@@ -1,5 +1,5 @@
 let aboutMe = {
-  name: "Altia Inale",
+  name: "Altia Gonzales Inale",
   age: 21,
   course: "BSIS 3- A",
   introduce: function() {
