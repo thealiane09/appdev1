@@ -4,13 +4,13 @@
   <title>JS Refresher</title>
 </head>
 <body>
-  <button onclick="changeColor()">Click </button>
+  <button onclick="changeColor()">Click this Button</button>
   <p id="msg"></p>
 
   <script>
     function changeColor() {
-      document.body.style.backgroundColor = "pink";
       let color = prompt("What is your favorite color?");
+      document.body.style.backgroundColor = color;
       document.getElementById("msg").innerText = "Your favorite color is " + color;
 
       setTimeout(() => {
