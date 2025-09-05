@@ -1,8 +1,7 @@
 let foods = ["Pork Adobo", "Ampalaya", "Gabi with lots of chili"];
 
-foods.push("Pansit Bato"); // add end
-foods.shift(); // remove first
-
+foods.push("Pansit Bato"); 
+foods.shift(); 
 for (let food of foods) {
   console.log(food);
 }
