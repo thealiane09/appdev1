@@ -9,11 +9,9 @@ if (grade >= 90) {
 } else {
   console.log("F");
 }
-
 for (let i = 1; i <= 5; i++) {
   console.log(i);
 }
-
 let count = 0;
 while (count < 3) {
   console.log("Hello");
