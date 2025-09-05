@@ -4,7 +4,7 @@ function greet(name) {
 console.log(greet("Altia"));
 
 const square = (num) => num * num;
-console.log("Square of 3:", square(3));
+console.log("Square of 4:", square(9));
 
 function calculator(a, b) {
   return {
