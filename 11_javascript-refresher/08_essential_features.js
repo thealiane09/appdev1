@@ -1,4 +1,4 @@
-let hobbies = ["Sleeping", "Baking", "Watching"];
+let hobbies = ["Sleeping", "Baking", "Watching korean drama"];
 hobbies.map(h => console.log(h));
 
 let student = { name: "Altia", age: 21 };
