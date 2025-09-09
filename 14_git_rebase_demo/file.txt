@@ -1,0 +1,3 @@
+
+
+Realization: Rebasing replays feature commits on top of main, creating a linear history without merge commits. Commit IDs change, so avoid rebasing branches already pushed to a shared remote.
