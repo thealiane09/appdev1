@@ -1,0 +1,3 @@
+
+
+Realization: Git merge creates a merge commit when both branches have new commits, keeping history intact and showing branch points clearly.
