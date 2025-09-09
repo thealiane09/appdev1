@@ -1,0 +1,3 @@
+
+
+Realization: Macro commits combine unrelated changes under one vague message, making history hard to follow. Micro commits give each change a clear message, making the history easier to read and manage.
