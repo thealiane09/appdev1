@@ -1,14 +1,18 @@
 function MyButton() {
   return (
-    <button>I'm a button</button>
+    <button className="my-button">I'm a button</button>
   );
 }
 
 function AboutPage() {
   return (
     <>
-      <h1>About</h1>
-      <p>Hello there.<br />How do you do?</p>
+      <h1 className="page-title">About</h1>
+      <p className="about-text">
+        Hello there.<br />How do you do?
+        </p>
+        <img className="avatar"
+      scr="https://via.placeholder.com/100" alt="Avatar" />
     </>
   );
 }
