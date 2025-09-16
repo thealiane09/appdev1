@@ -41,13 +41,29 @@ function Profile() {
   );
 }
 
+function AdminPanel() {
+  return <h2>Welcome back, Admin!</h2>;
+}
+
+function LoginForm() {
+  return <h2>Please log in to continue.</h2>;
+}
+
 export default function App() {
+  const isLoggedIn = true;
+
   return (
     <div>
       <h1>Hello, React!</h1>
       <MyButton />
       <AboutPage />
       <Profile />
+
+      {isLoggedIn ? (
+        <AdminPanel />
+      ) : (
+        <LoginForm />
+      )}
     </div>
   );
 }
