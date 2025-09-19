@@ -1,8 +1,17 @@
 import './App.css';
+import { useState } from 'react';
 
 function MyButton() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+
   return (
-    <button className="my-button">I'm a button</button>
+    <button onClick={handleClick}>
+      Clicked {count} times
+    </button>
   );
 }
 
@@ -78,7 +87,11 @@ export default function App() {
   return (
     <div>
       <h1>Hello, React!</h1>
+
+      <h2>Counters that update separately</h2>
       <MyButton />
+      <MyButton />
+
       <AboutPage />
       <Profile />
 
