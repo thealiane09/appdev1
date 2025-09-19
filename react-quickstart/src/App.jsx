@@ -1,15 +1,9 @@
 import './App.css';
 import { useState } from 'react';
 
-function MyButton() {
-  const [count, setCount] = useState(0);
-
-  function handleClick() {
-    setCount(count + 1);
-  }
-
+function MyButton({ count, onClick }) {
   return (
-    <button onClick={handleClick}>
+    <button onClick={onClick}>
       Clicked {count} times
     </button>
   );
@@ -82,15 +76,20 @@ function ShoppingList() {
 }
 
 export default function App() {
+  const [count, setCount] = useState(0);
   const isLoggedIn = true;
+
+  function handleClick() {
+    setCount(count + 1);
+  }
 
   return (
     <div>
       <h1>Hello, React!</h1>
 
-      <h2>Counters that update separately</h2>
-      <MyButton />
-      <MyButton />
+      <h2>Counters that update together</h2>
+      <MyButton count={count} onClick={handleClick} />
+      <MyButton count={count} onClick={handleClick} />
 
       <AboutPage />
       <Profile />
