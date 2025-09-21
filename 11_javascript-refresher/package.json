@@ -1,0 +1,13 @@
+{
+  "name": "11_javascript-refresher",
+  "version": "1.0.0",
+  "main": "01_base_syntax.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
