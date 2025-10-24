@@ -10,7 +10,7 @@ export default function App() {
       <hr />
       <TodoList />
       <hr />
-      <TodoList2 /> {/* ← add this to show your new component */}
+      <TodoList2 /> 
     </div>
   );
 }
