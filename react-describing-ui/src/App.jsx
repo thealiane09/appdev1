@@ -1,5 +1,6 @@
 import Gallery from './Gallery.jsx';
-import TodoList from './TodoList.jsx'; 
+import TodoList from './TodoList.jsx';
+import TodoList2 from './TodoList2.jsx'; // ← add this line
 
 export default function App() {
   return (
@@ -7,7 +8,9 @@ export default function App() {
       <h1>Welcome to My React App</h1>
       <Gallery />
       <hr />
-      <TodoList /> 
+      <TodoList />
+      <hr />
+      <TodoList2 /> {/* ← add this to show your new component */}
     </div>
   );
 }
