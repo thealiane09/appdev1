@@ -1,19 +1,10 @@
-function Profile() {
-  return (
-    <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
-  );
-}
+import Gallery from './Gallery.jsx';
 
-export default function Gallery() {
+export default function App() {
   return (
-    <section>
-      <h1>Amazing scientists</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
+    <div>
+      <h1>Welcome to My React App</h1>
+      <Gallery />
+    </div>
   );
 }
