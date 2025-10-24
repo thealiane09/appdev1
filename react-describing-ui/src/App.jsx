@@ -3,6 +3,7 @@ import TodoList from './TodoList.jsx';
 import TodoList2 from './TodoList2.jsx';
 import PackingList from './PackingList.jsx';
 import List from './List.jsx';
+import TeaSet from './TeaSet.jsx';
 
 export default function App() {
   return (
@@ -17,6 +18,8 @@ export default function App() {
       <PackingList />
       <hr />
       <List />
+      <hr />
+      <TeaSet />
     </div>
   );
 }
