@@ -1,7 +1,8 @@
 import Gallery from './Gallery.jsx';
 import TodoList from './TodoList.jsx';
 import TodoList2 from './TodoList2.jsx';
-import PackingList from './PackingList.jsx'; // ← import the new component
+import PackingList from './PackingList.jsx';
+import List from './List.jsx';
 
 export default function App() {
   return (
@@ -13,7 +14,9 @@ export default function App() {
       <hr />
       <TodoList2 />
       <hr />
-      <PackingList /> 
+      <PackingList />
+      <hr />
+      <List />
     </div>
   );
 }
