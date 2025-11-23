@@ -1,15 +1,5 @@
-// App.jsx (Part 1)
-import React, { useState, useEffect } from 'react';
+import PostsFetchAsync from "./PostsFetchAsync";
 
-function App() {
-  const [todos, setTodos] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  return (
-    <div>
-      <h1>My Todo App</h1>
-    </div>
-  );
+export default function App() {
+  return <PostsFetchAsync />;
 }
-
-export default App;
