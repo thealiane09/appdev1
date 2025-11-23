@@ -1,12 +1,12 @@
-export default function Avatar() {
-  const avatar = 'https://i.imgur.com/7vQD0fPs.jpg';
-  const description = 'Gregorio Y. Zara';
-
+export default function TodoList() {
   return (
-    <img
-      className="avatar"
-      src={avatar}
-      alt={description}
-    />
+    <ul style={{
+      backgroundColor: 'black',
+      color: 'pink'
+    }}>
+      <li>Improve the videophone</li>
+      <li>Prepare aeronautics lectures</li>
+      <li>Work on the alcohol-fuelled engine</li>
+    </ul>
   );
 }
