@@ -1,16 +1,9 @@
-export function Profile() {
-  return (
-    <img
-      src="https://i.imgur.com/QIrZWGIs.jpg"
-      alt="Alan L. Hart"
-    />
-  );
-}
+import { Profile } from "./Profile.jsx";
 
 export default function Gallery() {
   return (
     <section>
-      <h1>Amazing scientists</h1>
+      <h1>Amazing Scientists</h1>
       <Profile />
       <Profile />
       <Profile />
